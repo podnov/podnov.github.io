@@ -26,4 +26,11 @@ public class MathTest {
 
         Assert.assertEquals(-1, actual);
     }
+    
+    @Test
+    public void multiply() {
+    	int actual = math.multiplication(4, 3);
+    	
+    	Assert.assertEquals(12, actual);
+    }
 }
